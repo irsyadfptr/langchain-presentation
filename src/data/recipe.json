@@ -1,0 +1,343 @@
+{
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Spaghetti Carbonara",
+        "cuisine": "Italian",
+        "prepTime": "15 minutes",
+        "cookTime": "20 minutes",
+        "ingredients": [
+          { "name": "Spaghetti", "quantity": "400g" },
+          { "name": "Pancetta", "quantity": "150g" },
+          { "name": "Eggs", "quantity": "3 large" },
+          { "name": "Parmesan Cheese", "quantity": "100g" }
+        ],
+        "instructions": [
+          "Cook spaghetti until al dente.",
+          "Mix eggs with Parmesan cheese.",
+          "Fry pancetta, then toss with pasta.",
+          "Mix in egg mixture and serve."
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Vegan Buddha Bowl",
+        "cuisine": "Fusion",
+        "prepTime": "20 minutes",
+        "cookTime": "25 minutes",
+        "ingredients": [
+          { "name": "Quinoa", "quantity": "1 cup" },
+          { "name": "Sweet Potato", "quantity": "1 large" },
+          { "name": "Chickpeas", "quantity": "1 can" },
+          { "name": "Spinach", "quantity": "2 cups" }
+        ],
+        "instructions": [
+          "Cook quinoa.",
+          "Roast sweet potato and chickpeas.",
+          "Assemble bowl with vegetables and quinoa."
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Chicken Tikka Masala",
+        "cuisine": "Indian",
+        "prepTime": "30 minutes",
+        "cookTime": "40 minutes",
+        "ingredients": [
+          { "name": "Chicken Breast", "quantity": "500g" },
+          { "name": "Yogurt", "quantity": "1/2 cup" },
+          { "name": "Garam Masala", "quantity": "2 tbsp" },
+          { "name": "Tomato Sauce", "quantity": "1 cup" }
+        ],
+        "instructions": [
+          "Marinate chicken with yogurt and spices.",
+          "Cook chicken and prepare the sauce.",
+          "Simmer chicken in sauce and serve."
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Guacamole",
+        "cuisine": "Mexican",
+        "prepTime": "10 minutes",
+        "ingredients": [
+          { "name": "Avocados", "quantity": "3" },
+          { "name": "Lime", "quantity": "1" },
+          { "name": "Onion", "quantity": "1/2" },
+          { "name": "Cilantro", "quantity": "1/4 cup" }
+        ],
+        "instructions": [
+          "Mash avocados.",
+          "Mix with lime juice, onion, and cilantro."
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Beef Stir-Fry",
+        "cuisine": "Chinese",
+        "prepTime": "15 minutes",
+        "cookTime": "10 minutes",
+        "ingredients": [
+          { "name": "Beef Strips", "quantity": "300g" },
+          { "name": "Soy Sauce", "quantity": "2 tbsp" },
+          { "name": "Bell Peppers", "quantity": "2" },
+          { "name": "Ginger", "quantity": "1 tbsp" }
+        ],
+        "instructions": [
+          "Marinate beef with soy sauce.",
+          "Stir-fry beef and vegetables."
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Caprese Salad",
+        "cuisine": "Italian",
+        "prepTime": "10 minutes",
+        "ingredients": [
+          { "name": "Tomatoes", "quantity": "3" },
+          { "name": "Mozzarella", "quantity": "200g" },
+          { "name": "Basil", "quantity": "Handful" },
+          { "name": "Olive Oil", "quantity": "2 tbsp" }
+        ],
+        "instructions": [
+          "Slice tomatoes and mozzarella.",
+          "Layer with basil and drizzle with olive oil."
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Greek Salad",
+        "cuisine": "Greek",
+        "prepTime": "15 minutes",
+        "ingredients": [
+          { "name": "Cucumber", "quantity": "1" },
+          { "name": "Tomatoes", "quantity": "2" },
+          { "name": "Feta Cheese", "quantity": "100g" },
+          { "name": "Olives", "quantity": "50g" }
+        ],
+        "instructions": [
+          "Chop vegetables.",
+          "Mix with feta, olives, and dressing."
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Pancakes",
+        "cuisine": "American",
+        "prepTime": "10 minutes",
+        "cookTime": "15 minutes",
+        "ingredients": [
+          { "name": "Flour", "quantity": "1 cup" },
+          { "name": "Milk", "quantity": "1 cup" },
+          { "name": "Egg", "quantity": "1" },
+          { "name": "Baking Powder", "quantity": "1 tsp" }
+        ],
+        "instructions": [
+          "Mix ingredients.",
+          "Cook on a griddle until golden brown."
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Garlic Butter Shrimp",
+        "cuisine": "Seafood",
+        "prepTime": "5 minutes",
+        "cookTime": "10 minutes",
+        "ingredients": [
+          { "name": "Shrimp", "quantity": "400g" },
+          { "name": "Butter", "quantity": "2 tbsp" },
+          { "name": "Garlic", "quantity": "4 cloves" },
+          { "name": "Lemon Juice", "quantity": "1 tbsp" }
+        ],
+        "instructions": [
+          "Sauté shrimp with garlic in butter.",
+          "Add lemon juice and serve."
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Tom Yum Soup",
+        "cuisine": "Thai",
+        "prepTime": "15 minutes",
+        "cookTime": "20 minutes",
+        "ingredients": [
+          { "name": "Shrimp", "quantity": "300g" },
+          { "name": "Lemongrass", "quantity": "2 stalks" },
+          { "name": "Mushrooms", "quantity": "1 cup" },
+          { "name": "Chili Paste", "quantity": "1 tbsp" }
+        ],
+        "instructions": [
+          "Boil broth with lemongrass.",
+          "Add shrimp, mushrooms, and chili paste."
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Falafel",
+        "cuisine": "Middle Eastern",
+        "prepTime": "20 minutes",
+        "cookTime": "10 minutes",
+        "ingredients": [
+          { "name": "Chickpeas", "quantity": "2 cups" },
+          { "name": "Garlic", "quantity": "3 cloves" },
+          { "name": "Parsley", "quantity": "1/4 cup" },
+          { "name": "Cumin", "quantity": "1 tsp" }
+        ],
+        "instructions": [
+          "Blend chickpeas with garlic and herbs.",
+          "Form into balls and fry."
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Tacos",
+        "cuisine": "Mexican",
+        "prepTime": "10 minutes",
+        "cookTime": "15 minutes",
+        "ingredients": [
+          { "name": "Ground Beef", "quantity": "400g" },
+          { "name": "Taco Seasoning", "quantity": "2 tbsp" },
+          { "name": "Taco Shells", "quantity": "8" },
+          { "name": "Lettuce", "quantity": "1 cup" }
+        ],
+        "instructions": [
+          "Cook beef with seasoning.",
+          "Assemble tacos with toppings."
+        ]
+      },
+      {
+        "id": 13,
+        "name": "French Toast",
+        "cuisine": "French",
+        "prepTime": "5 minutes",
+        "cookTime": "10 minutes",
+        "ingredients": [
+          { "name": "Bread", "quantity": "4 slices" },
+          { "name": "Eggs", "quantity": "2" },
+          { "name": "Milk", "quantity": "1/2 cup" },
+          { "name": "Cinnamon", "quantity": "1 tsp" }
+        ],
+        "instructions": [
+          "Dip bread in egg mixture.",
+          "Cook on griddle until golden."
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Pad Thai",
+        "cuisine": "Thai",
+        "prepTime": "20 minutes",
+        "cookTime": "15 minutes",
+        "ingredients": [
+          { "name": "Rice Noodles", "quantity": "200g" },
+          { "name": "Shrimp", "quantity": "200g" },
+          { "name": "Peanuts", "quantity": "1/4 cup" },
+          { "name": "Tamarind Paste", "quantity": "2 tbsp" }
+        ],
+        "instructions": [
+          "Soak noodles.",
+          "Stir-fry shrimp and mix with noodles and sauce."
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Hummus",
+        "cuisine": "Middle Eastern",
+        "prepTime": "10 minutes",
+        "ingredients": [
+          { "name": "Chickpeas", "quantity": "2 cups" },
+          { "name": "Tahini", "quantity": "2 tbsp" },
+          { "name": "Garlic", "quantity": "2 cloves" },
+          { "name": "Lemon Juice", "quantity": "1 tbsp" }
+        ],
+        "instructions": [
+          "Blend all ingredients until smooth."
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Ratatouille",
+        "cuisine": "French",
+        "prepTime": "25 minutes",
+        "cookTime": "45 minutes",
+        "ingredients": [
+          { "name": "Eggplant", "quantity": "1" },
+          { "name": "Zucchini", "quantity": "2" },
+          { "name": "Tomatoes", "quantity": "4" },
+          { "name": "Bell Pepper", "quantity": "1" }
+        ],
+        "instructions": [
+          "Slice vegetables and layer in a dish.",
+          "Bake with herbs and olive oil."
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Butter Chicken",
+        "cuisine": "Indian",
+        "prepTime": "30 minutes",
+        "cookTime": "30 minutes",
+        "ingredients": [
+          { "name": "Chicken", "quantity": "500g" },
+          { "name": "Butter", "quantity": "100g" },
+          { "name": "Tomato Sauce", "quantity": "1 cup" },
+          { "name": "Cream", "quantity": "1/2 cup" }
+        ],
+        "instructions": [
+          "Cook chicken in butter.",
+          "Simmer with sauce and cream."
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Burritos",
+        "cuisine": "Mexican",
+        "prepTime": "15 minutes",
+        "cookTime": "10 minutes",
+        "ingredients": [
+          { "name": "Flour Tortillas", "quantity": "4" },
+          { "name": "Refried Beans", "quantity": "1 cup" },
+          { "name": "Cheese", "quantity": "100g" },
+          { "name": "Rice", "quantity": "1 cup" }
+        ],
+        "instructions": [
+          "Assemble burritos with fillings.",
+          "Grill for a few minutes."
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Pizza Margherita",
+        "cuisine": "Italian",
+        "prepTime": "20 minutes",
+        "cookTime": "15 minutes",
+        "ingredients": [
+          { "name": "Pizza Dough", "quantity": "1 ball" },
+          { "name": "Tomato Sauce", "quantity": "1/2 cup" },
+          { "name": "Mozzarella", "quantity": "200g" },
+          { "name": "Basil", "quantity": "Handful" }
+        ],
+        "instructions": [
+          "Spread sauce on dough.",
+          "Top with mozzarella and bake."
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Lentil Soup",
+        "cuisine": "Mediterranean",
+        "prepTime": "15 minutes",
+        "cookTime": "30 minutes",
+        "ingredients": [
+          { "name": "Lentils", "quantity": "1 cup" },
+          { "name": "Carrots", "quantity": "2" },
+          { "name": "Celery", "quantity": "2 stalks" },
+          { "name": "Garlic", "quantity": "3 cloves" }
+        ],
+        "instructions": [
+          "Sauté vegetables, then simmer with lentils."
+        ]
+      }
+    ]
+  }
+  
