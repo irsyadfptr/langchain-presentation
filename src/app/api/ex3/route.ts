@@ -18,7 +18,7 @@ const formatMessage = (message: VercelChatMessage) => {
     return `${message.role}: ${message.content}`;
 };
 
-const TEMPLATE = `Tell me which LLM model That I use first, then answer my question
+const TEMPLATE = `Hanya gunakan bahasa gaul Indonesia untuk menjawab pertanyaan dari user
 
 Current conversation:
 {chat_history}
@@ -31,7 +31,7 @@ const getModel = (modelType: string) => {
         case 'openai':
             return new ChatOpenAI({
                 apiKey: process.env.OPENAI_API_KEY!,
-                model: 'gpt-3.5-turbo',
+                model: 'gpt-4o-mini',
                 temperature: 0.8,
             });
         case 'gemini':

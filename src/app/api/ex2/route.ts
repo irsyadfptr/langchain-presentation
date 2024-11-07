@@ -18,13 +18,11 @@ const formatMessage = (message: VercelChatMessage) => {
     return `${message.role}: ${message.content}`;
 };
 
-const TEMPLATE = `You are a comedian. You have witty replies to user questions and you tell jokes.
-
-Current conversation:
+const TEMPLATE = `Sebelum menjawab pertanyaan berikan terlebih dahulu AI tipe apa yang digunakan {model}, lalu lanjutkan percakapan sebagai berikut, jangan lupa untuk tambahkan enter atau /n setiap menjawab
+Percakapan saat ini:
 {chat_history}
 
-user: {input}
-assistant:`;
+user: {input}`;
 
 // Define the model type
 type Model = ChatOpenAI | ChatGoogleGenerativeAI;
@@ -44,7 +42,7 @@ export async function POST(req: Request) {
                 case 'openai':
                     return new ChatOpenAI({
                         apiKey: process.env.OPENAI_API_KEY!,
-                        model: 'gpt-3.5-turbo',
+                        model: 'gpt-4o-mini',
                         temperature: 0.8,
                     });
                 case 'gemini':
@@ -69,12 +67,15 @@ export async function POST(req: Request) {
          */
         const parser = new HttpResponseOutputParser(); // Type is inferred from the class
 
-        const chain = prompt.pipe(model.bind({ stop: ["?"] })).pipe(parser);
+        const chain = prompt.pipe(model.bind({ 
+            // stop: ["?"] 
+        })).pipe(parser);
 
         // Convert the response into a friendly text-stream
         const stream = await chain.stream({
             chat_history: formattedPreviousMessages.join('\n'),
             input: currentMessageContent,
+            model: modelType
         });
 
         // Respond with the stream

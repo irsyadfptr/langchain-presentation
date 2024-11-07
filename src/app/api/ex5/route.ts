@@ -80,8 +80,8 @@ export async function POST(req: Request) {
         // Initialize the Chat model
         const model = new ChatOpenAI({
             apiKey: process.env.OPENAI_API_KEY!,
-            model: 'gpt-3.5-turbo',
-            temperature: 0,
+            model: 'gpt-4o-mini',
+            temperature: 1,
             streaming: true,
             verbose: true,
         });

@@ -85,20 +85,20 @@ export function Chat() {
     return (
         <main className="flex flex-col w-full h-screen max-h-dvh bg-background">
             <header className="p-4 border-b w-full max-w-3xl mx-auto mt-10">
-                <h1 className="text-2xl font-bold">LangChain Presentation</h1>
+                <h1 className="text-2xl font-bold">Ai Integration Presentation</h1>
             </header>
 
             {/* Buttons to select API */}
             <section className="flex p-4 w-full max-w-3xl mx-auto">
                 <div className="flex w-full max-w-3xl mx-auto items-center gap-2">
                     {/* <label className="mr-4">Select API:</label> */}
-                    {['ex1', 'ex2', 'ex3', 'ex4', 'ex5'].map(api => (
+                    {[{route: 'ex1', label: 'Basic'}, {route: 'ex2', label: 'Chains 1'}, {route: 'ex3', label: 'Chains 2'}, {route: 'ex4', label: 'Embedded'}, {route: 'ex5', label: 'Uploaded'}].map(api => (
                         <Button
-                            key={api}
-                            onClick={() => handleApiChange(api)}
-                            className={`p-2 ${selectedApi === api ? 'bg-primary text-white' : 'bg-muted text-black'}`}
+                            key={api.route}
+                            onClick={() => handleApiChange(api.route)}
+                            className={`p-2 ${selectedApi === api.route ? 'bg-primary text-white' : 'bg-muted text-black'}`}
                         >
-                            {api.toUpperCase()}
+                            {api.label}
                         </Button>
                     ))}
                 </div>
