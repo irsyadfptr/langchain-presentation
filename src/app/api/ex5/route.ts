@@ -10,7 +10,7 @@ import { RunnableSequence } from '@langchain/core/runnables';
 import { formatDocumentsAsString } from 'langchain/util/document';
 
 import { PDFLoader } from "@langchain/community/document_loaders/fs/pdf";
-import { CSVLoader } from "@langchain/community/document_loaders/fs/csv";
+// import { CSVLoader } from "@langchain/community/document_loaders/fs/csv";
 import { DocxLoader } from "@langchain/community/document_loaders/fs/docx";
 import { PPTXLoader } from "@langchain/community/document_loaders/fs/pptx";
 
@@ -34,9 +34,11 @@ const loadDocumentFromBase64 = async (base64File: string, fileType: string) => {
         case 'application/vnd.openxmlformats-officedocument.wordprocessingml.document':
             const docLoader = new DocxLoader(fileBlob);
             return await docLoader.load();
-        case 'text/csv':
-            const csvLoader = new CSVLoader(fileBlob);
-            return await csvLoader.load();
+        // case 'text/csv':
+        //     const csvLoader = new CSVLoader(fileBlob, {
+        //         column: "Cabang, Kanwil",
+        //       });
+        //     return await csvLoader.load();
         case 'application/vnd.openxmlformats-officedocument.presentationml.presentation':
             const pptxLoader = new PPTXLoader(fileBlob);
             return await pptxLoader.load();
